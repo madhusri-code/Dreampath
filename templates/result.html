@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>DreamPath Result</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+<div class="container">
+
+    <h1>🎯 Your Top Career Matches</h1>
+
+    {% for career in careers %}
+        <div class="career-card">
+            <h2>{{ career }}</h2>
+        </div>
+        <br>
+    {% endfor %}
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Career Assessment Quiz</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+<div class="container">
+
+<h1>Career Assessment Quiz</h1>
+
+<form action="/result">
+
+<h2>1. Which subject do you enjoy the most?</h2>
+
+<input type="radio" name="subject" value="cs"> Computer Science<br><br>
+<input type="radio" name="subject" value="bio"> Biology<br><br>
+<input type="radio" name="subject" value="commerce"> Commerce<br><br>
+<input type="radio" name="subject" value="arts"> Arts<br><br>
+
+
+<h2>2. What are you passionate about?</h2>
+
+<input type="radio" name="interest" value="technology"> Technology 💻<br><br>
+<input type="radio" name="interest" value="fashion"> Fashion 👗<br><br>
+<input type="radio" name="interest" value="helping"> Helping People 🩺<br><br>
+<input type="radio" name="interest" value="leadership"> Leadership 👑<br><br>
+<input type="radio" name="interest" value="sports"> Sports ⚽<br><br>
+<input type="radio" name="interest" value="music"> Music 🎵<br><br>
+<input type="radio" name="interest" value="politics"> Politics 🏛️<br><br>
+<input type="radio" name="interest" value="business"> Business 💼<br><br>
+
+
+<h2>3. What is your dream?</h2>
+
+<input type="radio" name="dream" value="fame"> Fame and Recognition<br><br>
+<input type="radio" name="dream" value="service"> Serving Society<br><br>
+<input type="radio" name="dream" value="innovation"> Innovation<br><br>
+<input type="radio" name="dream" value="startup"> Starting a Business<br><br>
+
+<button type="submit">Submit</button>
+
+</form>
+
+</div>
+
+</body>
+</html>
