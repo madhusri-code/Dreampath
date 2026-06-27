@@ -60,7 +60,7 @@ def result():
     return render_template('result.html', careers=careers)
 
 # Career Categories Page
-@app.route('/careers')
+@app.route('/c')
 def careers():
     return render_template('careers.html')
 
